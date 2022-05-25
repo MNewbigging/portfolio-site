@@ -1,3 +1,5 @@
+import './card.scss';
+
 import React from 'react';
 
 interface CardProps {

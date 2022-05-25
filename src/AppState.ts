@@ -5,17 +5,14 @@ export const baseLinkUrl = 'https://mnewbigging.github.io/';
 export enum NavTab {
   GAMES = 'GAMES',
   APPS = 'APPS',
-  RANDOM = 'RANDOM',
+  MISC = 'MISC',
 }
 
 export class AppState {
-  public count = 0;
   public selectedTab = NavTab.GAMES;
 
   constructor() {
     makeObservable(this, {
-      count: observable,
-      incrementCount: action,
       selectedTab: observable,
       setSelectedTab: action,
     });
@@ -32,8 +29,4 @@ export class AppState {
   public isActivePanel(tab: NavTab) {
     return tab === this.selectedTab;
   }
-
-  public incrementCount = () => {
-    this.count++;
-  };
 }
