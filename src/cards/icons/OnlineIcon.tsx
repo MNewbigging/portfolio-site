@@ -1,7 +1,10 @@
+import OnlineLogo from '/assets/online.svg';
 import React from 'react';
 
 export const OnlineIcon: React.FC = () => {
   return (
-    <img src='/assets/online.svg' width={24} height={24} title={'Online play'} alt={'Online'} />
+    <div className='icon-logo' style={{ width: '24px', height: '24px' }} title={'Online'}>
+      <OnlineLogo />
+    </div>
   );
 };

@@ -5,4 +5,4 @@ declare module '*.svg' {
 
 declare module '*.png';
 
-declare module '*.PNG';
+//declare module '*.PNG';

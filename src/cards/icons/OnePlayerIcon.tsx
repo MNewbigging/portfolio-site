@@ -1,13 +1,10 @@
+import OnePlayerLogo from '/assets/onePlayer.svg';
 import React from 'react';
 
 export const OnePlayerIcon: React.FC = () => {
   return (
-    <img
-      src={'/assets/onePlayer.svg'}
-      width={22}
-      height={22}
-      title={'One Player'}
-      alt={'One Player'}
-    />
+    <div className='icon-logo' style={{ width: '22px', height: '22px' }} title={'One Player'}>
+      <OnePlayerLogo />
+    </div>
   );
 };
