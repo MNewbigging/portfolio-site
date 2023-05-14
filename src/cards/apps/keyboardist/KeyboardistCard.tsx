@@ -14,9 +14,9 @@ export const KeyboardistCard: React.FC = () => {
       title={'Keyboardist'}
       icons={[<OnePlayerIcon />, <LocalIcon />]}
       blurb={
-        'Create and play multiple keyboards. Set hotkeys for many notes to play chords with one button!'
+        'I made the keyboard in Blender, audio with Tonejs and animations with Threejs and gsap. Press the power button to turn it on!'
       }
-      link={baseLinkUrl + 'keyboard-player'}
+      link={baseLinkUrl + 'keyboardist'}
       buttonText={'open'}
     />
   );
