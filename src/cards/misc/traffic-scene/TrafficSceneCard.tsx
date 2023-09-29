@@ -2,8 +2,6 @@ import './traffic-scene-card.scss';
 
 import React from 'react';
 import { Card } from '../../Card';
-import { OnePlayerIcon } from '../../icons/OnePlayerIcon';
-import { LocalIcon } from '../../icons/LocalIcon';
 import { baseLinkUrl } from '../../../AppState';
 
 export const TrafficSceneCard: React.FC = () => {
@@ -11,8 +9,9 @@ export const TrafficSceneCard: React.FC = () => {
     <Card
       logo={<div className='logo traffic-scene'></div>}
       title={'Traffic Scene'}
-      icons={[<OnePlayerIcon />, <LocalIcon />]}
-      blurb={'Small town scene with vehicles driving around roads. Built using ThreeJs'}
+      blurb={
+        'Small town scene built in ThreeJs with vehicles driving around roads and basic camera and time playback controls.'
+      }
       link={baseLinkUrl + 'traffic-scene'}
       buttonText={'open'}
     />

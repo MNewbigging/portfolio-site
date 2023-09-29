@@ -46,35 +46,6 @@
       font-family: $fontTitle;
     }
 
-    .points {
-      flex: 1 1 auto;
-
-      .icons {
-        height: 35px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        .icon {
-          margin: 0px 4px;
-
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          .icon-logo {
-            width: 28px;
-            height: 28px;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-        }
-      }
-    }
-
     .blurb {
       flex: 2 1 auto;
       text-align: center;
