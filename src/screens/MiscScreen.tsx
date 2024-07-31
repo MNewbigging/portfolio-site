@@ -8,10 +8,12 @@ import { HomeStCard } from '../cards/misc/home-st/HomeStCard';
 import { KeyboardistCard } from '../cards/apps/keyboardist/KeyboardistCard';
 import { TrafficSceneCard } from '../cards/misc/traffic-scene/TrafficSceneCard';
 import { LootBoxCard } from '../cards/misc/loot-box/LootBoxCard';
+import { AStarCard } from '../cards/misc/a-star/AStarCard';
 
 export const MiscScreen: React.FC = () => {
   return (
     <>
+      <AStarCard />
       <LootBoxCard />
       <HomeStCard />
       <HauntedHouseCard />
