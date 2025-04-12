@@ -3,7 +3,7 @@ import './card.scss';
 import React from 'react';
 
 interface CardProps {
-  logo: JSX.Element;
+  logo: React.ReactElement;
   title: string;
   blurb: string;
   link: string;
