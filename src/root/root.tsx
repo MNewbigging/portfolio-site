@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './root.scss';
+import { Projects } from '../projects/projects';
+import { About } from '../about/about';
 
 type TabType = 'projects' | 'about';
 
@@ -18,6 +20,8 @@ export function Root() {
     setTab(tabType);
   };
 
+  const screen = tab === 'projects' ? <Projects /> : <About />;
+
   return (
     <div className='root'>
       <div className='navbar'>
@@ -28,7 +32,7 @@ export function Root() {
           About
         </div>
       </div>
-      <div className='body'></div>
+      <div className='body'>{screen}</div>
     </div>
   );
 }

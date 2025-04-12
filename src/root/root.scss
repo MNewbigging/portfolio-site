@@ -33,13 +33,26 @@
 
   .body {
     flex: 1 1 auto;
-
     display: flex;
     background-color: #1f2328;
-    overflow: auto;
+    padding: 20px;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    overflow: auto;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #1f2328;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e8e8e8;
+
+  &:hover {
+    background: white;
   }
 }

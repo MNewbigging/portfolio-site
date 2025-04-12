@@ -5,7 +5,7 @@ import { createRoot } from 'react-dom/client';
 
 import { App } from './App';
 import { AppState } from './AppState';
-import { Root } from './root';
+import { Root } from './root/root';
 
 // const appState = new AppState();
 
