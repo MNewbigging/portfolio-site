@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import '../styles/palette.scss';
 
 .root {
   width: 100%;
@@ -10,7 +9,7 @@
 
   .navbar {
     flex: 0 0 60px;
-    background-color: #7d98a1;
+    background-color: $color-light-blue;
     color: #ccc;
     display: flex;
     justify-content: space-evenly;
@@ -19,8 +18,7 @@
 
     .tab-heading {
       font-weight: 700;
-      font-family: 'Comfortaa', cursive;
-      //font-family: 'Poppins', sans-serif;
+      font-family: $fontTitle;
       font-size: 16pt;
       cursor: pointer;
       transition: color 0.15s ease-in-out;
@@ -33,7 +31,7 @@
 
   .body {
     flex: 1 1 auto;
-    background-color: #1f2328;
+    background-color: $color-black;
     padding: 20px;
     overflow: auto;
   }
@@ -41,11 +39,11 @@
 
 ::-webkit-scrollbar {
   width: 10px;
-  background-color: #1f2328;
+  background-color: $color-black;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #e8e8e8;
+  background: $color-white;
 
   &:hover {
     background: white;
