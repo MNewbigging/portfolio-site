@@ -9,7 +9,7 @@ export const AStarCard: React.FC = () => {
     <Card
       logo={<div className='a-star logo'></div>}
       title='A* Pathfinder'
-      blurb={'Implementation of the a-star pathfinding method built in threejs'}
+      blurb={'Implementation of the a-star pathfinding method built in threejs.'}
       link={baseLinkUrl + 'a-star'}
       buttonText='open'
     />
