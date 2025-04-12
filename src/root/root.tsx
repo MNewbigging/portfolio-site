@@ -6,7 +6,7 @@ import { About } from '../about/about';
 type TabType = 'projects' | 'about';
 
 export function Root() {
-  const [tab, setTab] = useState<TabType>('projects');
+  const [tab, setTab] = useState<TabType>('about');
 
   const getTabClass = (tabType: TabType) => {
     let base = 'tab-heading';

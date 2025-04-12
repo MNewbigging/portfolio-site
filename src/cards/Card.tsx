@@ -19,7 +19,7 @@ export const Card: React.FC<CardProps> = ({ logo, title, blurb, link, buttonText
         <div className={'logo'}>{logo}</div>
       </div>
       <div className={'lower'}>
-        <div className={'title heading'}>{title}</div>
+        <div className={'title'}>{title}</div>
         <div className={'blurb'}>{blurb}</div>
         <div className={'play-button'}>
           <a href={link} target={'_blank'}>
