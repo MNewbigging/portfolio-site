@@ -10,7 +10,9 @@ export const CssAnimsCard: React.FC = () => {
     <Card
       logo={<div className={'css-anims logo'}></div>}
       title={'CSS Anims'}
-      blurb={'Collection of css drawings and animations I do for fun.'}
+      blurb={
+        'Collection of css drawings and random animations, plus a smoke particle effect done with threejs.'
+      }
       link={baseLinkUrl + 'css-anims'}
       buttonText={'open'}
     />

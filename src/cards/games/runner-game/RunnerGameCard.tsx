@@ -10,7 +10,7 @@ export const RunnerGameCard: React.FC = () => {
     <Card
       logo={<div className={'runner-game logo'}></div>}
       title={'Runner Game'}
-      blurb={'Simple endless runner game. Avoid all the doggos!'}
+      blurb={'Jump over doggos! Made using pure DOM bounds queries without libs/frameworks.'}
       link={baseLinkUrl + 'runner-game'}
     />
   );
