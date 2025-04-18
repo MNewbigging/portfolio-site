@@ -94,6 +94,99 @@ export function About() {
           would actively mentor the team, and try to play to their strengths and improve their
           weaknesses where I could.
         </p>
+        <p>We followed Agile practices, sprints and released the product 3 or 4 times a year.</p>
+      </div>
+
+      <div className='section'>
+        <div className='heading'>
+          Games Developer -&gt; Lead Developer, InTouch Games Ltd
+          <span className='light'>Jun 2018 - Mar 2020 • Birmingham, UK</span>
+        </div>
+        <p>
+          InTouch is a gambling games company, making games for the web and mobile devices. We used
+          TypeScript and a custom in-house framework built on top of PixiJs to create the games.
+        </p>
+        <p>
+          There were rigorous safety precautions; each game had to be individually audited by an
+          independent 3rd party, so each developer had to take them through the code before signing
+          off on the project.
+        </p>
+        <p>
+          InTouch used more of a waterfall approach than an Agile one; designs were worked on
+          up-front, with little change once development was underway. After building, it was sent
+          through rounds of testing and fixing issues until it came back all clear.
+        </p>
+        <p>
+          After about 6 months at the company I was promoted to a line-management position, where I
+          was responsible for between 5 and 10 devs at any time. I held regular 1-1s, made
+          development plans, delivered performance reviews. I was less hands-on codewise at this
+          point, though I did end up getting deep into Jira add-on coding using Groovy.
+        </p>
+      </div>
+
+      <div className='section'>
+        <div className='heading'>
+          BSc Games Development (Hons) - 1st Class, Edinburgh Napier University
+          <span className='light'>Sep 2014 - May 2018 • Edinburgh, UK</span>
+        </div>
+        <p>
+          Solid grounding in C, C++ and C#, design patterns, multi-threading, 3d maths and physics,
+          algorithms and data structures. Wrote large scale game engines and physics simulations
+          using spatial partitioning, collision detection & resolution, graphics pipelines and
+          shaders as well as various gameplay features.
+        </p>
+        <p>
+          For my honours project I focused on the theme 'gamification of exercise'. I had been
+          getting into embedded programming for some time and decided to use that experience, so I
+          bought an exercise bike and built a game controller on top of it. I used magnets to track
+          pedal rotations, and built custom controllers on the handlebars. This was all done in a
+          low-level C-like language. It broadcast signals via bluetooth, which was picked up by the
+          Unity game I had made written in C#.
+        </p>
+      </div>
+
+      <div className='section'>
+        <div className='heading'>
+          In Another Life
+          <span className='light'>The before times • Various, UK</span>
+        </div>
+        <p>
+          While studying at Napier, I worked for a company called Yavi for around 2 years. I started
+          off in a data entry role and later took part in hiring new staff, providing onboarding
+          training and documentation for the data entry team. I then moved to become the first and
+          only QA tester; building, documenting and executing test cases and regression test suites
+          for the product. It was a great insight into how startups function, and a nice intro to
+          Agile practices.
+        </p>
+        <p>
+          Before studying Games Development, I worked as a Duty Manager at the Go Ape site in
+          Crathes for 2 years. Go Ape is a treetop climbing adventure park. It was my role to ensure
+          strict health and safety measures were adhered to whilst cultivating an exciting
+          atmosphere for customers. In doing so I learnt to develop a strong rapport with those
+          around me. I was first-aid trained on a 3 day course, and rescue trained at height by the
+          Mountain Rescue leader. I managed the daily running of the site; organising the
+          instructors and scheduling climbing sessions, fielding calls and questions, handling cash
+          and opening/closing the site, performing regular site maintenance and customer rescue.
+          This job was my first real example of managing a team, and it taught me so much! Ensuring
+          the site runs smoothly, nobody gets hurt and the team of instructors are kept happy at
+          work was incredibly rewarding. I learnt how to keep cool in difficult circumstances, most
+          notably when customers were hurt, scared and screaming.
+        </p>
+        <p>
+          I studied music at Aberdeen University for 3 years before deciding it wasn't the career
+          for me and running off to play in the trees at GoApe. During my music studies I earned a
+          living as a lounge pianist. I would approach venues with either a demo CD or my stage
+          piano in hand, negotiate playing times and prices with managers and usually play regular
+          sessions each week. Having to haggle with managers who always try to get away with paying
+          me in chips taught me how to hold my ground in those conversations and never undersell
+          myself.
+        </p>
+        <p>
+          I have held a few retail positions with Menkind, Tiso and souvenir shops on the Royal Mile
+          in Edinburgh. Typical sales assistant stuff; cash handling, stock taking, fielding calls
+          and questions from customers. In these roles I learnt how to build a rapport with others
+          quickly, and a great deal of patience!
+        </p>
       </div>
     </div>
   );
