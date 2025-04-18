@@ -3,7 +3,7 @@ import './desk-scene-card.scss';
 import React from 'react';
 
 import { Card } from '../../Card';
-import { baseLinkUrl } from '../../../AppState';
+import { baseLinkUrl } from '../../../Index';
 
 export const DeskSceneCard: React.FC = () => {
   return (

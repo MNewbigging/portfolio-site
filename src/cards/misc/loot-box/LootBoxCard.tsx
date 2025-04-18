@@ -1,4 +1,4 @@
-import { baseLinkUrl } from '../../../AppState';
+import { baseLinkUrl } from '../../../Index';
 import { Card } from '../../Card';
 import './loot-box-card.scss';
 

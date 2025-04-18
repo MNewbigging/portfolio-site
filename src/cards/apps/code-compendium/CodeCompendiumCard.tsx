@@ -3,7 +3,7 @@ import './code-compendium.scss';
 import React from 'react';
 
 import { Card } from '../../Card';
-import { baseLinkUrl } from '../../../AppState';
+import { baseLinkUrl } from '../../../Index';
 
 export const CodeCompendiumCard: React.FC = () => {
   return (

@@ -1,9 +1,9 @@
 import './box-cross-card.scss';
 
-import { baseLinkUrl } from '../../../AppState';
 import { Card } from '../../Card';
 
 import React from 'react';
+import { baseLinkUrl } from '../../../Index';
 
 export const BoxCrossCard: React.FC = () => {
   return (
