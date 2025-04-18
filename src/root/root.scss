@@ -12,8 +12,9 @@
     background-color: $color-light-blue;
     color: #ccc;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 120px;
     transition: all 0.2s linear;
 
     .tab-heading {
