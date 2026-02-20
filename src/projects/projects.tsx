@@ -17,10 +17,12 @@ import { TaskLogCard } from '../cards/apps/task-log/TaskLogCard';
 import { BletherCard } from '../cards/apps/blether/BletherCard';
 import { RunnerGameCard } from '../cards/games/runner-game/RunnerGameCard';
 import { TextFallCard } from '../cards/games/text-fall/TextFallCard';
+import { ShootHoopsCard } from '../cards/games/shoot-hoops/shoot-hoops-card';
 
 export function Projects() {
   return (
     <div className='projects'>
+      <ShootHoopsCard />
       <ShootingRangeCard />
       <BoxCrossCard />
       <WordBashCard />
